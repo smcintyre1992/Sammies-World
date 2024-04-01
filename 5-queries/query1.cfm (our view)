@@ -10,3 +10,6 @@
     <cfdump var="#allBooks#" />
     </body>
 </html>
+<cfoutput>
+Allbooks has #allbooks.recordcount# books in it and the columns are #allbooks.columnlist#
+</cfoutput>
